@@ -1,0 +1,8 @@
+When to use pointers
+--------------------
+
+When you import a large piece of data and don't want to throw it around your program. Instead you can store it then use it's address to access it!
+
+When you need to change something at a certain location.
+
+// Everything in Go is pass by value. Forget all other relative phrases. Go is WYSIWYG.
