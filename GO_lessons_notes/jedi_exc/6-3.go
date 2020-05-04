@@ -3,16 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	
-	defer fmt.Println(foo([]int{1,2,3,4,5}...))
 
-	fmt.Println(bar([]int{2,4,6,8}))
+	defer fmt.Println(foo([]int{1, 2, 3, 4, 5}...))
+
+	fmt.Println(bar([]int{2, 4, 6, 8}))
 }
 
-
-
 func foo(i ...int) int {
-	sum := 0 
+	sum := 0
 	for _, v := range i {
 		sum += v
 	}
@@ -25,5 +23,5 @@ func bar(ii []int) int {
 		sum += v
 	}
 	return sum
-	
+
 }

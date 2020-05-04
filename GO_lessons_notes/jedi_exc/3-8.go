@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Create a program that uses a switch statemnet with no 
+// Create a program that uses a switch statemnet with no
 // switch expression specified.
 
 func main() {

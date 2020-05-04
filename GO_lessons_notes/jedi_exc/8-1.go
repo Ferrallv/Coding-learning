@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"encoding/json"
+	"fmt"
 )
 
 type user struct {
@@ -12,7 +12,7 @@ type user struct {
 
 func main() {
 	// remember we need to capitalize the named fields
-	// so that they are visible 
+	// so that they are visible
 	u1 := user{
 		First: "James",
 		Age:   32,

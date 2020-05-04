@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 
-
 // My solution, It worked! s
 type person struct {
 	height int
@@ -14,7 +13,7 @@ func changeMe(p *person) {
 
 func main() {
 
-	pers := person {
+	pers := person{
 		height: 100,
 	}
 	fmt.Println(pers.height)
@@ -22,7 +21,6 @@ func main() {
 	changeMe(&pers)
 	fmt.Println(pers.height)
 }
-
 
 // this solution is provided by Todd.
 // I ended up doing it correctly myself! Awesome!

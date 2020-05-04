@@ -6,7 +6,7 @@ import "fmt"
 // when divided by 4
 
 func main() {
-	for i := 10; i <= 100; i ++ {
+	for i := 10; i <= 100; i++ {
 		fmt.Printf("When %v is divided by 4, the modulus is %v\n", i, i%4)
 	}
 }

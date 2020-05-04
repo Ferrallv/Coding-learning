@@ -1,8 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"encoding/json"
+	"fmt"
 	"os"
 )
 
@@ -50,7 +50,6 @@ func main() {
 	users := []user{u1, u2, u3}
 
 	fmt.Println(users)
-
 
 	// your code goes here
 	err := json.NewEncoder(os.Stdout).Encode(users)

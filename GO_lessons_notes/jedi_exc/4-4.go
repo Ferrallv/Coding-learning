@@ -13,5 +13,5 @@ func main() {
 
 	y := []int{56, 57, 58, 59, 60}
 	x = append(x, y...)
-	fmt.Println(x)	
+	fmt.Println(x)
 }

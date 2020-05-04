@@ -15,13 +15,13 @@ func main() {
 		return xi[0] + xi[len(xi)-1]
 	}
 
-	x := foo(g, []int{1,2,3,4,5})
+	x := foo(g, []int{1, 2, 3, 4, 5})
 	fmt.Println(x)
 }
 
 func first() int {
 	return 23
-} 
+}
 
 func second(i int) {
 	fmt.Println(i)

@@ -8,7 +8,7 @@ var z = true
 
 func main() {
 	s := fmt.Sprintf("%d, %s, %t", x, y, z)
-	// Can also do 
+	// Can also do
 	//  s := fmt.Sprintf("%v, %v, %v", x, y, z)
 	// %v returns the value in a default format
 	fmt.Println(s)

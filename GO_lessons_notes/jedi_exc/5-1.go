@@ -3,21 +3,21 @@ package main
 import "fmt"
 
 type person struct {
-	first string
-	last string
+	first       string
+	last        string
 	favIceCream string
 }
 
 func main() {
 	p1 := person{
-		first: "Aang",
-		last: "Avatar",
+		first:       "Aang",
+		last:        "Avatar",
 		favIceCream: "FrozenFrog",
 	}
 
 	p2 := person{
-		first: "Sokka",
-		last: "Water",
+		first:       "Sokka",
+		last:        "Water",
 		favIceCream: "Mooncicle",
 	}
 	// slice1 := []string{p1}
@@ -32,7 +32,7 @@ func main() {
 	// }
 
 	slice := []string{p1.favIceCream, p2.favIceCream}
-	
+
 	for _, v := range slice {
 		fmt.Println(v)
 	}

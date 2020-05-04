@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 type vehicle struct {
-	doors int
+	doors  int
 	colour string
 }
 
@@ -21,7 +21,7 @@ func main() {
 
 	titan := truck{
 		vehicle: vehicle{
-			doors: 2,
+			doors:  2,
 			colour: "brown",
 		},
 		fourWheel: true,
@@ -29,7 +29,7 @@ func main() {
 
 	camry := sedan{
 		vehicle: vehicle{
-			doors: 4,
+			doors:  4,
 			colour: "Champagne Sparkle",
 		},
 		luxury: false,

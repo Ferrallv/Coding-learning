@@ -9,13 +9,13 @@ const b = "A String?"
 // OR
 
 const (
-	c = true
+	c        = true
 	d string = "It is"
 )
 
 func main() {
 	fmt.Println(a)
-	fmt.Println(b) 
+	fmt.Println(b)
 
 	fmt.Println(c, d)
 }

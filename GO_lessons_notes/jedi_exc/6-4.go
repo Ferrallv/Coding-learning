@@ -4,10 +4,9 @@ import "fmt"
 
 type person struct {
 	first string
-	last string
-	age int
+	last  string
+	age   int
 }
-
 
 // func (r receiver) identifier(parameters) (return(s)) { code }
 
@@ -16,11 +15,11 @@ func (p person) Speak() {
 }
 
 func main() {
-	
+
 	person1 := person{
 		first: "Nin",
-		last: "Aeve",
-		age: 34,
+		last:  "Aeve",
+		age:   34,
 	}
 
 	person1.Speak()

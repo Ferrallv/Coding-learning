@@ -18,7 +18,7 @@ func (s square) area() float32 {
 }
 
 func (c circle) area() float32 {
-	return math.Pi*c.radius*c.radius
+	return math.Pi * c.radius * c.radius
 }
 
 type shape interface {
@@ -33,11 +33,11 @@ func info(s shape) {
 
 func main() {
 
-	sqr := square {
+	sqr := square{
 		length: 10.2,
 	}
 
-	cir := circle {
+	cir := circle{
 		radius: 3.4,
 	}
 
