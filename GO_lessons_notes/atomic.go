@@ -4,33 +4,28 @@ import (
 	"fmt"
 	"runtime"
 	"sync"
-	// "time"
+	"sync/atomic"
 )
 
 func main() {
 	fmt.Println("CPUs: ",runtime.NumCPU())
 	fmt.Println("Routines: ",runtime.NumGoroutine())
 
-	counter := 0
+	var counter int64
 
 	const gs = 100
 	var wg sync.WaitGroup
 	wg.Add(gs)
 
-	var mu sync.Mutex
-
 	for i := 0; i < gs; i++ {
 		go func() {
-			mu.Lock()
-			v := counter
+			atomic.AddInt64(&counter, 1)
+			fmt.Println("Counter\t", atomic.LoadInt64(&counter))
 			// time.Sleep(time.Second)
 			runtime.Gosched()
-			v++
-			counter = v
-			mu.Unlock( )
 			wg.Done()
 		}()
-		fmt.Println("Routines:  ",runtime.NumGoroutine())
+		fmt.Println("Routines: ",runtime.NumGoroutine())
 	}
 
 	wg.Wait()

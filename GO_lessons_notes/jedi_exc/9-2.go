@@ -26,7 +26,7 @@ func main() {
 	}
 
 	// This will work
-	saySomething(&myPerson)
+	saySomething(&myPerson )
 
 	// This will no work
 	// saySomething(myPerson)
