@@ -24,7 +24,7 @@ func main() {
 			v++
 			counter = v
 			fmt.Println(counter)
-			mu.Unlock() 
+			mu.Unlock()
 			wg.Done()
 		}()
 	}

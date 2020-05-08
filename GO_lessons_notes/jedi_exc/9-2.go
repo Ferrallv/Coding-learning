@@ -12,7 +12,7 @@ func (p *person) Speak() {
 	fmt.Println(p.Name)
 }
 
-type human interface{
+type human interface {
 	Speak()
 }
 
@@ -26,7 +26,7 @@ func main() {
 	}
 
 	// This will work
-	saySomething(&myPerson )
+	saySomething(&myPerson)
 
 	// This will no work
 	// saySomething(myPerson)

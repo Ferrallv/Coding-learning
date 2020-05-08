@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"sync"
 	"runtime"
+	"sync"
 )
-
 
 // My answer!
 // func main() {
@@ -41,19 +40,19 @@ func main() {
 	fmt.Println("Begin CPU", runtime.NumCPU())
 	fmt.Println("Begin gs", runtime.NumGoroutine())
 
-	go func () {
+	go func() {
 		fmt.Println("I am first anon Function, hello!")
 		wg.Done()
 	}()
 
-	go func () {
+	go func() {
 		fmt.Println("I am second anon Function, hello!")
 		wg.Done()
 	}()
 
 	fmt.Println("Mid CPU", runtime.NumCPU())
 	fmt.Println("Mid gs", runtime.NumGoroutine())
-	
+
 	wg.Wait()
 
 	fmt.Println("End CPU", runtime.NumCPU())
