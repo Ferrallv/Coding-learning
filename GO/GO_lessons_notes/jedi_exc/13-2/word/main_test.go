@@ -51,6 +51,9 @@ func TestUseCount(t *testing.T) {
 	}
 }
 
+// There is a better way! We want to use a switch!!
+// Write switch here.
+
 func TestCount(t* testing.T) {
 	x := Count("I I am fun fun fun")
 	if x != 6 {

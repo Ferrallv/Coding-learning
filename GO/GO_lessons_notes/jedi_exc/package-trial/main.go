@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"dog"
+	"ExercisesAndProjectsInC/GO_lessons_notes/jedi_exc/package-trial/dog"
 )
 
 func main() {
