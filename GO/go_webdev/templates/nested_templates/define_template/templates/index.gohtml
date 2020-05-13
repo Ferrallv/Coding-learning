@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Header Menu</title>
+	<!-- Don't know how to serve files yet -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+{{template "svgs"}}
+
+{{template "header"}}
+<div id="atf">
+	<main>
+		<svg class="icon icon-big-in">
+			<use xlink:href="#inbox"></use>
+		</svg>
+		<h1>Are you Logged in?</h1>
+	</main>
+</div>
+
+{{template "btf"}}
+
+</body>
+</html>

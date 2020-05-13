@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Predefined global function - index a slice</title>
+</head>
+<body>
+
+	{{index .Words 2}}
+	{{index .Words 0}}
+	{{index .Words 1}}
+	{{.Lname}}
+
+<!-- 
+index
+a func you can use in a template
+it is a "predefined global function"
+
+INdex returns the result of indexing its first argument by the following arguments. Thus "index x 1 2 3" is, in Go syntax, x[1][2][3]. Each indexed item must be a  map, slice, or array.
+
+https://godoc.org/text/template#hdr-Functions -->
+
+<!-- Go Template Comment -->
+{{/*(index .Wisdom 3.Name*/}}
+
+</body>
+</html>
