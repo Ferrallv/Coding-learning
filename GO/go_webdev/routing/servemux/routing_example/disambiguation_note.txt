@@ -1,0 +1,17 @@
+The differences between func(ResponseWriter, *Request) and HandlerFunc are explained and illustrated.
+
+A Handler is an interface which gives the type Handler to any type that includes the method ServeHTTP which takes a ResponseWriter and a pointer to a Request.
+
+ListenAndServe takes a Handler!
+
+The way we do routing is with a ServeMux. NewServeMux gvies us back a type pointer to a ServeMux. A serveMux implements ServeHTTP which means it is a Handler and THEREFORE we can put in into ListenAndServe.
+
+ServeMux has other methods attached to it. Handle and FuncHandler.
+
+Handle takes a Handler.  
+
+HandleFunc takes a function with the paramaters ResponseWriter and *Request. This is different from a Handler, although it has the same parameters. It is it's own type.
+
+HandleFunc takes a route and a func that has the parameters ResponseWriter and *Request.
+
+ListenAndServe can take nil as the Handler and so will implement the default ServeMux. Handle and HandleFunc can be used to create routes for the DefaultMux.
