@@ -1,0 +1,46 @@
+There is a stringent smell in the air, similar to the darkest alleys of disripute, but it couldn't look cleaner. A bright glow line the tops of the walls, and slick black ropes stretch along the ceiling in every direction. The low hum is constant here, but you can't tell where it's coming from. The hallway stretches for a while ahead to what looks like a crosspath. Before that you see what might be a cutoff to the right halfway down the hallway.
+
+BOSS ROOM
+The foyer is large, separated from the party by a large glass wall, with a door made of glass infront of them. Beyond the glass door stands a steel wheel against a large steel wall. A green rectangle of light shows above the wheel.
+
+Before the wheel, in the center of the room beyond the glass door stand three pedestals, identical to those seen in the room above. small squares of sand an inch deep sit ontop of the pedestal.
+
+*** INSPECTION *** 
+written on the pedestals, from left to right, are ENTRANCE - INFINITY - TIMEOUT.
+
+IF sigilONe, SigilTwo, and SigilThree are drawn into the sand, this will shut off the protal as the demiurge is coming through.
+
+The cable to the top of the room can be severed to cancel the transfer of Bennett into this world. 
+AC - 15
+HP - 50
+
+IN THE BOSS ROOM
+
+Fifteen cultists are chanting in front of a large portal, it's rim spinning vicously. Lightning sparks and rips into the walls from the portal. Slowly a large steel appendage reaches through the portal, glowing with lightning, green and black in color. A deafening roar as steel against steel rings out as another appendage comes throught he gateway, crushing some cultists immediately in front. A beasts face pulls through the portal, rending the air with lightning and the grinding of steel. Your hair stands straight on end from the static in the air as the cultists scream "Archon of Knowledge. The lion-faced Demiurge from Ahead, devour reality, Bennett, TechnosYaldabaoth"
+
+
+PORTHOLE ROOM - 
+
+As you enter the room you notice an iron hatch in the center of the room. At the top of the room and on your left and your right you see what look to be holes in the floor, approximately 5ft in diamater.
+
+As you descend onto the floor you notice a brass pattern spread in a chaotic pattern from a box in the corner. The box is a perfect cube of steel with a simple latch on the front.
+
+Inside sits an orb with the word [RESPONSE, STACKS, SUBQUERIED] engraved on it, each letter having a small vertical mark above it.
+
+
+CULTIST ROOM
+
+You enter a room to discover some cloaked individuals performing some sort of ritual on a strange marking on the floor. as you enter the turn to you and draw their strange weapons.
+
+RAMSTIPEDE ROOM - 
+
+You enter a large room, 60ft ahead of you the floor seems to drop off to nothing. You cannot see the far side of the room, and you suddenly hear a rapid clicking sound of steel on steel.
+
+A human arm reaches up from the edge in front of you. A shirtless human shape pulls itself over the edge panting and gasping. It looks at the you with pleading eyes and breathlessly cries for help.
+
+A sudden burst of clicks catch you off guard as the body of the human is lifted into the air and severed by two thin golden rods protruding from a rectangle lined on either side with similar rods. The spray of blood lightly drifts onto you and the surrounding area. The green and black thing looks at you with no no eyes, but in your bones you know for whom the critter clats.
+
+TRIPWIRE -
+
+DC 17 to find, trivial to disarm
+If set off, a high pitched whine echoes throughout the hall, rising in pitch and volume until it suddenly stops. The lights go out and visions of mechanical automatons dismembering immobile townsfolk as they scream enters your mind. Make an intelligence check DC 13. FAILURE: The lights come back on and your reality seems unchanged, but you are extremely perturbed and can't shake the feeling of helplessness. Your DEX and INT bonus are both lowered by 1. 
