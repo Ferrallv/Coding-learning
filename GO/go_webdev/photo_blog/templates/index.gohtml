@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>INDEX</title>
+</head>
+<body>
+
+Hello <br>
+Sincerely, <br>
+	index <br>
+
+<!-- <h1>Cookie Value: {{.}}</h1>
+{{range .}}
+<h2>{{.}}</h2>
+{{end}}
+ -->
+
+<h1>Your Pictures</h1>
+{{range .}}
+<img src="/public/pics/{{.}}" width="400px">
+{{end}}
+
+<form method="post" enctype="multipart/form-data" >
+	<input type="file" name="nf" placeholder="Filename">
+	<input type="submit">
+</form>
+
+</body>
+</html>
