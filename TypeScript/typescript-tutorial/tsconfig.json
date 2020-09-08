@@ -1,0 +1,8 @@
+{
+	"compilerOptions": {
+		"outFile": "app.js",
+		"target": "es6",
+		"strict": true
+	}
+}
+
