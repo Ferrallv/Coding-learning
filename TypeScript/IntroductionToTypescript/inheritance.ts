@@ -14,6 +14,7 @@ bran.dance()
 class AwesomePerson extends Person {
 	dance() {
 		console.log("SO AWESOME");
+		super.dance();
 	}
 }
 

@@ -29,6 +29,7 @@ var AwesomePerson = /** @class */ (function (_super) {
     }
     AwesomePerson.prototype.dance = function () {
         console.log("SO AWESOME");
+        _super.prototype.dance.call(this);
     };
     return AwesomePerson;
 }(Person));
